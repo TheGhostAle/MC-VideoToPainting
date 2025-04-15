@@ -75,7 +75,6 @@ def combine_images(input_dir, output_file, start_index=None, end_index=None):
 
     # Salva l'immagine risultante
     combined_image.save(output_file)
-    print(f"Immagine creata con successo: {output_file}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Combina immagini verticalmente')
